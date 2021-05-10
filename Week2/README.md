@@ -12,3 +12,6 @@
      2. Total Order Value
      3. Average Days to Ship
  
+https://preppindata.blogspot.com/2021/01/2021-week-2.html
+https://www.youtube.com/watch?v=0VBD5mNAvLg
+https://community.tableau.com/s/group/0F94T000000gQqoSAE/preppindata
