@@ -23,5 +23,6 @@ Use the Convert Date > Quarter
   8. Aggregate to form two separate outputs of the number of products sold by: 
      1. Product, Quarter - see Output2.csv
      2. Store, Customer Type, Product - see Output1.csv
+
 Create two new clean steps, one is for Product, Quarter, the other is for Store, Customer Type, Product. Create two new Aggregate steps 
  
