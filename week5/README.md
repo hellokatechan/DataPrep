@@ -12,4 +12,4 @@ One Client has multiple Account Manager and Client ID. The goal is to have keep 
 
 3. In some instances, the Client ID has changed along with the Account Manager. Ensure only the most recent Client ID remains
 
-
+Resource: https://community.tableau.com/s/question/0D54T00000C5Qy0SAF/use-tableau-prep-to-select-only-the-most-recent-record 
