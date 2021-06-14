@@ -8,7 +8,7 @@ Use aggregate with TOUR under Grouped Fields and PLAYER NAME under Aggregated Fi
 3)How many events in total did players participate in for each tour?
 Uuse aggregate with TOUR under Grouped Fields and EVENTS under Aggregated Fields - Answers: 2,266 for LPGA and 2,282 for PGA
 
-4) How much do players win per event? What's the average of this for each tour? (help)
+4) How much do players win per event? What's the average of this for each tour?
 Create a new step then create a new calculated field to find out the money a player gets per event MONEY/EVENTS - Answers: Average Money Per Event for LPGA is $25,525 and $120,281 for PGA
 
 5) How do players rank by prize money for each tour? 
@@ -23,5 +23,7 @@ Use aggregate with TOUR under Grouped Fields and Avg in Diff in Ranking under Ag
 8)Here we would like the difference to be positive as you would presume combining the tours would cause a player's ranking to increase
 Combine the answers to these questions into one dataset  
   a) Pivot the data so that we have a column for each tour, with each row representing an answer to the above questions
+Use Pivot to pivot Columns to Rows all columns except for TOUR. Create another Pivot to pivot Rows to Columns for TOUR - Drag Pivot 1 Values under "Field to Aggregate for New Columns"
   b)Clean up the Measure field and create a new column showing the difference between the tours for each measure
-  c)We're looking at the difference between the LPGA from the PGA, so in most instances this number will be negative
+Create a new calculated field that subtract PGA from LPGA. Rename Pivot 1 Values to Measures 
+   
